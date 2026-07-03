@@ -33,8 +33,8 @@ _DJANGO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if os.path.exists(os.path.join(_DJANGO_ROOT, 'manage.py')) and _DJANGO_ROOT not in sys.path:
     sys.path.insert(0, _DJANGO_ROOT)
 
-import httpx
-from mcp.server.fastmcp import FastMCP
+import httpx  # noqa: E402
+from mcp.server.fastmcp import FastMCP  # noqa: E402
 
 API_URL = os.environ.get('VAGO_API_URL', 'https://www.vagocloud.com').rstrip('/')
 TOKEN = os.environ.get('VAGO_AGENT_TOKEN', '')
