@@ -1,0 +1,22 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": ["r-adrianzen"],
+  "displayName": "VAGO Cloud",
+  "description": "Sincroniza stock, precios y productos entre un Excel maestro y Shopify, MercadoLibre, Falabella, Ripley y Rappi.",
+  "categories": ["ecommerce", "inventory", "product-management"],
+  "env": {
+    "VAGO_AGENT_TOKEN": {
+      "description": "Token de agente emitido en VAGO Cloud (Gestión de cuenta → Agentes IA).",
+      "required": true
+    },
+    "VAGO_API_URL": {
+      "description": "URL base de la API de VAGO Cloud.",
+      "required": false,
+      "default": "https://www.vagocloud.com"
+    },
+    "VAGO_TENANT_ID": {
+      "description": "ID del tenant por defecto.",
+      "required": false
+    }
+  }
+}

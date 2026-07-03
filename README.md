@@ -1,5 +1,8 @@
 # VAGO Cloud MCP Server
 
+![CI](https://github.com/r-adrianzen/vago-mcp/actions/workflows/ci.yml/badge.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 Official [Model Context Protocol](https://modelcontextprotocol.io) server for **VAGO Cloud**.
 
 Connect AI agents (Claude Code, Cursor, Cowork, etc.) to the VAGO Cloud API and let them inspect tenants, jobs, stock, channels, and analytics — or perform allowed actions like retrying a failed sync.
