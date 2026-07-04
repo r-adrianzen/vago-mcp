@@ -85,7 +85,7 @@ Set `VAGO_MCP_TRANSPORT=http` and `VAGO_MCP_SHARED_SECRET` to expose the server 
 - **Users:** `list_users`, `create_user`, `update_user`
 - **Operations:** `dashboard_summary`, `list_jobs`, `get_job`, `retry_job`, `trigger_sync`, `stock_preview`, `not_found_skus`, `maestro_status`, `refresh_maestro`, `list_channels`
 - **Products:** `create_products_shopify`, `create_products_marketplace`
-- **Analytics:** `analytics_overview`
+- **Analytics:** `analytics_overview`, `sales_targets`
 - **Agent tasks (conversational):** `agent_task_update`, `confirm_agent_task`
 - **Generic:** `vago_api_request(method, path, ...)` for any endpoint not covered above
 
